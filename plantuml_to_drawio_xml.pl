@@ -11,7 +11,7 @@ use IPC::Open2;
 BEGIN {
   use vars qw($JAVABIN $PLANTUMLJAR $DEBUG);
   $JAVABIN="java";
-  $PLANTUMLJAR="plantuml-1.2022.5.jar";
+  $PLANTUMLJAR="plantuml-1.2024.4.jar";
   $DEBUG=0;
   use vars qw($DIO_AGENT_NAME $DIO_ETAG_ID $DIO_DIAGRAM_ID $DIO_USEROBJECT_ID);
   $DIO_AGENT_NAME    = "5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36";
